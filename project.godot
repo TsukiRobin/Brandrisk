@@ -11,17 +11,22 @@ config_version=5
 [application]
 
 config/name="Brandrisk"
+run/main_scene="uid://bacjc3mtnbddo"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
-InteractionManager="*uid://u8qepvon0iaa"
+InteractManager="*uid://c8srdgy6n6u6s"
 
 [display]
 
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+
+[global_group]
+
+player=""
 
 [input]
 
